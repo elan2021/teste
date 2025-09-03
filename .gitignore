@@ -1,0 +1,21 @@
+# Ignorar arquivos de ambiente com informações sensíveis
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar dependências do Node.js
+node_modules/
+
+# Ignorar logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Ignorar diretórios de build
+dist/
+build/
+.next/
+out/
